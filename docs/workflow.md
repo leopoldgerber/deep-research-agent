@@ -166,13 +166,13 @@ TASK_PARSING
                   ├─ gaps → REPLANNING
                   ├─ limit → SYNTHESIS(partial)
                   └─ stop → FINAL_OUTPUT
-                                      ↓
-                                 REPLANNING
+                                ↓
+                            REPLANNING
                   ├─ ok → EXECUTION
                   ├─ limit → SYNTHESIS(partial)
                   └─ fail → FINAL_OUTPUT
-                                                    ↓
-                                               SYNTHESIS
-                                                    ↓
-                                               FINAL_OUTPUT
+                                  ↓
+                                SYNTHESIS
+                                  ↓
+                                FINAL_OUTPUT
 ```
